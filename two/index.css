@@ -1,0 +1,81 @@
+.seperator,.six{
+  display: flex;
+}
+.same{
+  display:flex;
+  width: 25%;
+  margin: 0 auto;
+}
+.seven{
+  background-color:#AAAAAA;
+}
+.about{
+  color: #888888;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.contect{
+  color: #888888;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.eight{
+  width:150px;
+  height:5px;
+  background-color: #888888;
+}
+.ten{
+  font-size: 30px;
+  color:#888888;
+  font-weight: bold;
+}
+
+.one{
+width:300px;
+height:5px;
+background-color:white;
+}
+.two{
+  font-size: 30px;
+  color:white;
+  font-weight: bold;
+
+}
+.three{
+  font-size: 20px;
+  color:white;
+
+}
+.four{
+  font-size: 25px;
+  color:white;
+}
+.five{
+  border-radius: 50%;
+  width: 200px;
+  height:200px;
+}
+.picture{
+  width:500px;Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.
+I promise to reply A.S.A.P.
+  height:500px;
+
+}
+.eleven{
+  font-size:30px;
+  color:#888888;
+}
+.san{
+  width:500px;
+  height:1px;
+  background-color:#888888;
+}
+.dan{
+  font-size:25px;
+  color:#888888;
+}
+.xbox{
+   display: flex;
+}
