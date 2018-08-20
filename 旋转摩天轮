@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+		<title>test</title>
+		<style type="text/css">
+			.fsw{
+				position:relative;
+				width:768px;
+				height:768px;
+				background-image:url("htmlsc/fsw.png");
+				margin:10px auto 0 auto;
+				animation:fsw 5s linear infinite;
+			}
+			.boy{
+				width:130px;
+				height:170px;
+				background-image:url("htmlsc/boy.png");
+				position:absolute;
+				top:40px;
+				left:80px;
+				animation:a 5s linear infinite;
+			}
+			.girl{
+				width:130px;
+				height:170px;
+				background-image:url("htmlsc/girl.png");
+				position:absolute;
+				top:55px;
+				left:560px;
+				animation:a 5s linear infinite;
+			}
+			.shamegirl{
+				width:130px;
+				height:170px;
+				background-image:url("htmlsc/shamegirl.png");
+				position:absolute;
+				top:645px;
+				left:335px;
+				animation:a 5s linear infinite;
+			}
+			@keyframes fsw{
+				from{
+					transform:rotate(0deg);
+				}
+				to{
+					transform:rotate(360deg);
+				}
+			}
+			@keyframes a{
+				from{
+					transform:rotate(0deg);
+				}
+				to{
+					transform:rotate(-360deg);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="fsw">
+			<div class="boy"></div>
+			<div class="girl"></div>
+			<div class="shamegirl"></div>
+		</div>
+	</body>
+</html>
