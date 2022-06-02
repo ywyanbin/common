@@ -23,3 +23,25 @@ handleEnum(data, 'jobName', 'jobId')
 
 ```
 
+2. 数组处理成对象枚举
+```
+const handleArrayToEnum = (list: any, valueKey = 'value', labelKey = 'name') => {
+  if (!list || list.length === 0) {
+    return {};
+  }
+  let tmp: any = {};
+  list.forEach((val: any) => {
+    tmp[val[valueKey]] = val[labelKey];
+  });
+  return tmp;
+}
+
+handleArrayToEnum(data, 'jobId', 'jobName')
+
+/*
+  {
+    "6311313222025109": "形划部段身已",
+    "168503524182190": "到这点包引克"
+  }
+*/
+```
